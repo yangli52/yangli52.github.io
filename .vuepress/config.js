@@ -10,7 +10,7 @@ module.exports = {
   description: 'life is a fucxking movie',
   dest: 'public',
   head: [
-    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/logo1.png' }],
     ['meta', { name: 'viewport', content: 'width=device-width,initial-scale=1,user-scalable=no' }]
   ],
   theme: 'reco',
@@ -18,7 +18,7 @@ module.exports = {
     author: '山本无忧，因雪白头',
     nav: [
       { text: '主页', link: '/', icon: 'reco-home' },
-      { text: 'T时间轴', link: '/timeline/', icon: 'reco-date' },
+      { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
       { text: '工具推荐', 
         icon: 'reco-message',
         items: [
@@ -57,16 +57,16 @@ module.exports = {
     // 友情链接
     friendLink: [
       {
-        title: '午后南杂',
-        desc: 'Enjoy when you can, and endure when you must.',
-        email: '1156743527@qq.com',
-        link: 'https://www.recoluan.com'
+        title: 'csdn',
+        desc: '希望能对你有所帮助',
+        email: '985049753@qq.com',
+        link: 'https://blog.csdn.net/qq_42683773?spm=1001.2014.3001.5343'
       },
       {
-        title: '山本无忧，因血白头',
+        title: 'GitHub',
         desc: '愿时光能缓，愿故人不散！',
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
-        link: 'https://vuepress-theme-reco.recoluan.com'
+        link: 'https://github.com/yangli52'
       },
     ],
     // 博客自定义LOGO
@@ -79,13 +79,13 @@ module.exports = {
     // 最后更新时间
     lastUpdated: '最后更新时间',
     // 作者
-    author: '打工人',
+    author: '快乐肥仔',
     // 作者头像
     authorAvatar: '/头像.png',
     // 备案号
-    record: '山本无忧，因血白头',
+    record: '985049753@qq.com',
     // 项目开始时间
-    startYear: '2017',
+    startYear: '2021',
     /**
      * 密钥 (if your blog is private)
      */
@@ -129,9 +129,9 @@ module.exports = {
           bottom: '160px'
         },
         messages: {
-          welcome: '欢迎来到打工人博客',
+          welcome: '欢迎来到摸鱼人博客',
           home: '心里的花，我想要带你回家。',
-          theme: '好吧，希望你能喜欢我的其他小伙伴。',
+          theme: '希望我们可以一起去探险！',
           close: '再见哦'
         },
         width: 140,
