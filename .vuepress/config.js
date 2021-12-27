@@ -1,13 +1,13 @@
-module.exports = {
-  title: "打工人",
-  description: 'life is a fucxking movie',
+module.exports = {  
   locales: {
     '/': {
       lang: 'zh-CN'
     }
   },
-  title: '山本无忧，因雪白头',
-  description: '愿时光能缓，愿故人不散！',
+  // title: '山本无忧，因雪白头',
+  // description: '愿时光能缓，愿故人不散！',
+  title: "摸鱼人",
+  description: 'life is a fucxking movie',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/favicon.ico' }],
@@ -70,7 +70,7 @@ module.exports = {
       },
     ],
     // 博客自定义LOGO
-    logo: '/logo.png',
+    logo: '/logo1.png',
     // 搜索设置
     search: true,
     searchMaxSuggestions: 10,
@@ -79,9 +79,9 @@ module.exports = {
     // 最后更新时间
     lastUpdated: '最后更新时间',
     // 作者
-    author: '杨理',
+    author: '打工人',
     // 作者头像
-    authorAvatar: '/头像.jpg',
+    authorAvatar: '/头像.png',
     // 备案号
     record: '山本无忧，因血白头',
     // 项目开始时间
@@ -110,42 +110,32 @@ module.exports = {
   },
   plugins: [
     [
-      //先安装在配置， npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
+      //右下角猫咪 先安装在配置，npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
       "@vuepress-reco/vuepress-plugin-kan-ban-niang",
       {
-        theme: ['blackCat', 'whiteCat', 'haru1', 'haru2', 'haruto', 'koharu', 'izumi', 'shizuku', 'wanko', 'miku', 'z16'],
+        theme: ['wanko'],
         clean: false,
+        modelStyle:{
+          right: '90px',
+          bottom: '-20px',
+          opacity: '0.9'
+        },
+        btnStyle:{
+          right: '90px',
+          bottom: '40px',
+        },
+        messageStyle:{
+          right: '68px',
+          bottom: '160px'
+        },
         messages: {
-          welcome: '我是lookroot欢迎你的关注 ',
+          welcome: '欢迎来到打工人博客',
           home: '心里的花，我想要带你回家。',
           theme: '好吧，希望你能喜欢我的其他小伙伴。',
           close: '再见哦'
         },
-        width: 240,
-        height: 352
-      }
-    ],
-    [
-      //先安装在配置， npm install @vuepress-plugin-meting --save
-      'meting', {
-        metingApi: "https://api.i-meto.com/meting/api",
-        meting: {
-          server: "netease",
-          type: "playlist",
-          mid: "621465725"
-        },          // 不配置该项的话不会出现全局播放器
-        aplayer: {
-          lrcType: 3
-        }
-      }
-    ],
-    [
-      //彩带背景 先安装在配置， npm install vuepress-plugin-ribbon --save
-      "ribbon",
-      {
-        size: 90,     // width of the ribbon, default: 90
-        opacity: 0.8, // opacity of the ribbon, default: 0.3
-        zIndex: -1    // z-index property of the background, default: -1
+        width: 140,
+        height: 252
       }
     ],
     [
@@ -157,67 +147,33 @@ module.exports = {
         zIndex: 999999999           // z-index property of the canvas, default: 999999999
       }
     ],
-    [
-      //动态标题 先安装在配置， npm install vuepress-plugin-dynamic-title --save
-      "dynamic-title",
+    // 音乐插件
+    ["@vuepress-reco/vuepress-plugin-bgm-player",
       {
-        showIcon: "/favicon.ico",
-        showText: "(/≧▽≦/)咦！又好了！",
-        hideIcon: "/failure.ico",
-        hideText: "(●—●)喔哟，崩溃啦！",
-        recoverTime: 2000
+        audios: [
+        // 网络文件示例
+          {
+            name: '年轮',
+            artist: '张碧晨',
+            url: 'https://cdn.jsdelivr.net/gh/fudalijunyi/cdn/MP3/年轮.mp3',
+            cover: 'https://cdn.jsdelivr.net/gh/fudalijunyi/picture-bed/img/20200715154924.png'
+          }
+        ] ,
+        // 是否自动播放
+        autoplay:true,
+        // 自动缩小
+        autoShrink:true ,
+        // 悬浮窗模式，吸边
+        shrinkMode: 'mini' ,
+        // 悬浮窗位置
+        floatStyle:{ bottom: '10px', 'z-index': '999999' },
       }
-    ],
-    [
-      //图片放大插件 先安装在配置， npm install @vuepress\plugin-medium-zoom --save
-      '@vuepress\plugin-medium-zoom', {
-        selector: '.page img',
-        delay: 1000,
-        options: {
-          margin: 24,
-          background: 'rgba(25,18,25,0.9)',
-          scrollOffset: 40
-        }
-      }
-    ],
-    [
-     //插件广场的流程图插件 先安装在配置 npm install vuepress-plugin-flowchart --save
-      'flowchart'
-    ],
-    [
-      //插件广场的sitemap插件 先安装在配置 npm install vuepress-plugin-sitemap --save
-      'sitemap', {
-        hostname: 'https://www.glassysky.site'
-      }
-    ],
-    ['@vuepress/pwa', {
-      serviceWorker: true,  //vuepress插件PWA 先安装在配置 npm install @vuepress/pwa --save
-      updatePopup: {
-        message: "发现新内容可用",
-        buttonText: "刷新"
-      }
-     }
-    ],
-    ["vuepress-plugin-nuggets-style-copy", {
-      copyText: "复制代码",  //vuepress复制粘贴提示插件P 先安装在配置 npm install vuepress-plugin-nuggets-style-copy --save
-      tip: {
-        content: "复制成功!"
-      }
-    }],
-    ["@vuepress-yard/vuepress-plugin-window",{
-      title: "远方有你伴余生の公告",  //vuepress公告插件 先安装在配置 npm install @vuepress-yard/vuepress-plugin-window --save
-      contentInfo: {
-        title: "欢迎进来的小耳朵 🎉🎉🎉",
-        needImg: true,
-        imgUrl: "https://reinness.com/avatar.png",
-        content: "喜欢博皮可以到博客园关注教程",
-        contentStyle: ""
-      },
-      bottomInfo: {
-        btnText: '关于',
-        linkTo: 'https://cnblogs.com/glassysky'
-      },
-      closeOnce: false
-    }]
+    ]
+    // ["vuepress-plugin-nuggets-style-copy", {
+    //   copyText: "复制代码",  //vuepress复制粘贴提示插件P 先安装在配置 npm install vuepress-plugin-nuggets-style-copy --save
+    //   tip: {
+    //     content: "复制成功!"
+    //   }
+    // }],
   ]
 }  

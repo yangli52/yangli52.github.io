@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: vuepress-theme-reco
-tagline: A simple and beautiful vuepress blog theme.
+heroText: 摸鱼人
+tagline: 在摸鱼的路上,越走越远
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
