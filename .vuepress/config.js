@@ -34,6 +34,7 @@ module.exports = {
         ]
       }
     ],
+    subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     sidebar: {
       '/docs/theme-reco/': [
         // '',
@@ -58,12 +59,14 @@ module.exports = {
     friendLink: [
       {
         title: 'csdn',
+        // logo: '',
         desc: '希望能对你有所帮助',
         email: '985049753@qq.com',
         link: 'https://blog.csdn.net/qq_42683773?spm=1001.2014.3001.5343'
       },
       {
         title: 'GitHub',
+        // logo: '',
         desc: '愿时光能缓，愿故人不散！',
         avatar: "https://vuepress-theme-reco.recoluan.com/icon_vuepress_reco.png",
         link: 'https://github.com/yangli52'
@@ -113,7 +116,7 @@ module.exports = {
       //右下角猫咪 先安装在配置，npm install @vuepress-reco/vuepress-plugin-kan-ban-niang --save
       "@vuepress-reco/vuepress-plugin-kan-ban-niang",
       {
-        theme: ['wanko'],
+        theme: ['miku'],
         clean: false,
         modelStyle:{
           right: '90px',
@@ -126,7 +129,7 @@ module.exports = {
         },
         messageStyle:{
           right: '68px',
-          bottom: '160px'
+          bottom: '200px'
         },
         messages: {
           welcome: '欢迎来到摸鱼人博客',
@@ -138,6 +141,22 @@ module.exports = {
         height: 252
       }
     ],
+    [
+      //图片放大插件 先安装在配置， npm install @vuepress\plugin-medium-zoom --save
+      '@vuepress\plugin-medium-zoom', {
+        selector: '.page img',
+        delay: 1000,
+        options: {
+          margin: 24,
+          background: 'rgba(25,18,25,0.9)',
+          scrollOffset: 40
+        }
+      }
+    ],
+    // 流程图插件
+    ['flowchart'],
+    // 标签加强
+    ["vuepress-plugin-boxx" ],
     [
       //鼠标点击特效 先安装在配置， npm install vuepress-plugin-cursor-effects --save
       "cursor-effects",

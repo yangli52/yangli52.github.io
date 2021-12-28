@@ -7,6 +7,7 @@
     "build": "vuepress build ."
   },
   "devDependencies": {
+    "@vuepress/plugin-medium-zoom": "^1.9.5",
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.10"
   },
@@ -14,6 +15,7 @@
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
     "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    "vuepress-plugin-boxx": "^0.0.7",
     "vuepress-plugin-cursor-effects": "^1.0.2",
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-flowchart": "^1.5.0",
