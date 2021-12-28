@@ -141,18 +141,18 @@ module.exports = {
         height: 252
       }
     ],
-    [
-      //图片放大插件 先安装在配置， npm install @vuepress\plugin-medium-zoom --save
-      '@vuepress\plugin-medium-zoom', {
-        selector: '.page img',
-        delay: 1000,
-        options: {
-          margin: 24,
-          background: 'rgba(25,18,25,0.9)',
-          scrollOffset: 40
-        }
-      }
-    ],
+    // [
+    //   //图片放大插件 先安装在配置， npm install @vuepress\plugin-medium-zoom --save
+    //   '@vuepress\plugin-medium-zoom', {
+    //     selector: '.page img',
+    //     delay: 1000,
+    //     options: {
+    //       margin: 24,
+    //       background: 'rgba(25,18,25,0.9)',
+    //       scrollOffset: 40
+    //     }
+    //   }
+    // ],
     // 流程图插件
     ['flowchart'],
     // 标签加强
