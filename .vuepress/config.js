@@ -38,8 +38,8 @@ module.exports = {
       '/docs/theme-reco/': [
         ' ',
         '20211228',
-        'image',
-        'moban'
+        '1111',
+
       ]
     },  
     type: 'blog',
