@@ -36,10 +36,10 @@ module.exports = {
     ],
     sidebar: {
       '/docs/theme-reco/': [
-        '',
-        'theme',
-        'plugin',
-        'api'
+        ' ',
+        '20211228',
+        'image',
+        'moban'
       ]
     },  
     type: 'blog',
