@@ -37,9 +37,9 @@ module.exports = {
     subSidebar: 'auto',//在所有页面中启用自动生成子侧边栏，原 sidebar 仍然兼容
     sidebar: {
       '/docs/theme-reco/': [
-        // '',
-        // '20211228',
-        // '1111',
+        '',
+        '20211228',
+        '1111',
 
       ]
     },  
