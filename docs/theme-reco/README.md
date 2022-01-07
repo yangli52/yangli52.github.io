@@ -11,9 +11,7 @@ keys:
 # publish: true
 ---
 <body>
-
 <img src="img1.png" />
-
 </body>
 <style>
 body
