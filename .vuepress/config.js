@@ -22,8 +22,9 @@ module.exports = {
       { text: '工具推荐', 
         icon: 'reco-message',
         items: [
-          { text: 'vuepress-reco', link: '/docs/theme-reco/' },
-          { text: '正则表达式手册', link: 'https://tool.oschina.net/uploads/apidocs/jquery/regexp.html', icon: 'reco-coding' }
+          { text: '一起去探险', link: '/docs/theme-reco/', icon: 'reco-lock' },
+          { text: '正则表达式手册', link: 'https://tool.oschina.net/uploads/apidocs/jquery/regexp.html', icon: 'reco-coding' },
+          { text: '石墨文档', link: 'https://shimo.im/desktop', icon: 'reco-account' }
         ]
       },
       { text: '关于', 
