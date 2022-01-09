@@ -101,12 +101,11 @@ module.exports = {
     // },
 
     /**
-     * valine 设置 (if you need valine comment )
+     * valine 设置 (if you need valine comment )   评论留言 valine无后端评论系统
      */
-
     valineConfig: {
-      appId: 'uVX1RdW5NvC6zEnfjERU7mAb-gzGzoHsz',// your appId
-      appKey: 'DzzpF7cokBfNP107e5OjMKtQ', // your appKey
+      appId: 'Vpl8kSAIsrOyjag3pfK1wKe5-gzGzoHsz',// your appId
+      appKey: 'DARKGMvaDBt50umwPkQYgMNm', // your appKey
     }
   },
   markdown: {
@@ -188,7 +187,20 @@ module.exports = {
         // 悬浮窗位置
         floatStyle:{ bottom: '10px', 'z-index': '999999' },
       }
-    ]
+    ],
+    // github评论留言插件，先安装在配置
+    // ['@vuepress-reco/comments', {
+    //   solution: 'vssue',
+    //   options: {
+    //     title: 'vuepress-theme-reco',
+    //     platform: 'github',
+    //     owner: 'OWNER_OF_REPO',
+    //     repo: 'NAME_OF_REPO',
+    //     clientId: 'YOUR_CLIENT_ID',
+    //     clientSecret: 'YOUR_CLIENT_SECRET',
+    //   }
+    // }]
+    // 复制插件，先安装在配置
     // ["vuepress-plugin-nuggets-style-copy", {
     //   copyText: "复制代码",  //vuepress复制粘贴提示插件P 先安装在配置 npm install vuepress-plugin-nuggets-style-copy --save
     //   tip: {
