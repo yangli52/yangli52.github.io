@@ -10,17 +10,6 @@ keys:
  - '64df358688dc1a24d721ff00662ad8b9'
 # publish: true
 ---
-<body>
-<img src="img1.png" />
-</body>
-<style>
-body
-{
-	background-color:#d0e4fe;
-}
-</style>
-
-
 <!-- <marquee> -->
 <Boxx :blockStyle="blockStyle" changeTime="5000" />
 <!-- </marquee> -->
@@ -33,6 +22,14 @@ body
 		}
 	}
 </script> 
+::: tip 网址
+[酷客影院](https://www.28et.com):www.28et.com<br><br>
+[资源网站](https://www.yw3112.com):www.yw3112.com<br><br>
+[个人微博](https://weibo.com/u/5729988856):www.weibo.com<br><br>
+[力扣题库](https://leetcode-cn.com/)<br><br>
+[面试鸭](https://www.mianshiya.com/)<br><br>
+[牛客](https://ac.nowcoder.com/acm/problem/list)<br><br>
+:::
 
              
 ::: right
