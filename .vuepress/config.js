@@ -24,14 +24,17 @@ module.exports = {
         items: [
           { text: '一起去探险', link: '/docs/theme-reco/', icon: 'reco-lock' },
           { text: '正则表达式手册', link: 'https://tool.oschina.net/uploads/apidocs/jquery/regexp.html', icon: 'reco-coding' },
-          { text: '石墨文档', link: 'https://shimo.im/desktop', icon: 'reco-account' }
+          { text: '石墨文档', link: 'https://shimo.im/desktop', icon: 'reco-account' },
+          { text: 'csdn', link:'https://blog.csdn.net/qq_42683773?spm=1010.2135.3001.5343', icon:'reco-csdn'}
         ]
       },
       { text: '关于', 
         icon: 'reco-message',
         items: [
           { text: 'GitHub', link: 'https://github.com/yangli52', icon: 'reco-github' },
-          { text: '码云', link: 'https://gitee.com/yang-li52', icon: 'reco-mayun' }
+          { text: '码云', link: 'https://gitee.com/yang-li52', icon: 'reco-mayun' },
+          { text: '猫老祖平台',link:'https://maolaozu.codemao.cn/home',icon:'reco-other'},
+          { text: 'python编程工具下载', link:'https://shequ.codemao.cn/download?type=download',icon:'reco-document'}
         ]
       }
     ],
@@ -41,7 +44,9 @@ module.exports = {
         '',
         '20211228',
         '1111',
-        '202217'
+        '202217',
+        '20220112',
+        '20220109'
       ]
     },  
     type: 'blog',
