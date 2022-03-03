@@ -184,7 +184,7 @@ module.exports = {
           }
         ] ,
         // 是否自动播放
-        autoplay:true,
+        autoplay:false,
         // 自动缩小
         autoShrink:true ,
         // 悬浮窗模式，吸边
