@@ -6,8 +6,8 @@ module.exports = {
   },
   // title: '山本无忧，因雪白头',
   // description: '愿时光能缓，愿故人不散！',
-  title: "摸鱼人",
-  description: 'life is a fucxking movie',
+  title: "YangLi Blog",
+  description: '愿时光能缓，愿故人不散！',
   dest: 'public',
   head: [
     ['link', { rel: 'icon', href: '/logo1.png' }],
@@ -15,7 +15,7 @@ module.exports = {
   ],
   theme: 'reco',
   themeConfig: {
-    author: '山本无忧，因雪白头',
+    author: '快乐肥仔',
     nav: [
       { text: '主页', link: '/', icon: 'reco-home' },
       { text: '时间轴', link: '/timeline/', icon: 'reco-date' },
@@ -137,7 +137,7 @@ module.exports = {
           bottom: '200px'
         },
         messages: {
-          welcome: '欢迎来到摸鱼人博客',
+          welcome: '欢迎来到我的博客',
           home: '心里的花，我想要带你回家。',
           theme: '希望我们可以一起去探险！',
           close: '再见哦'

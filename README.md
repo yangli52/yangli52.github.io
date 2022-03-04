@@ -1,7 +1,7 @@
 ---
 home: true
-heroText: 摸鱼人
-tagline: 在摸鱼的路上,越走越远
+heroText: YangLi Blog
+tagline: 愿时光能缓，愿故人不散！
 # heroImage: /hero.png
 # heroImageStyle: {
 #   maxWidth: '600px',
