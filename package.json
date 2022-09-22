@@ -15,7 +15,7 @@
     "@vuepress-reco/vuepress-plugin-bgm-player": "^1.1.4",
     "@vuepress-reco/vuepress-plugin-comments": "^1.6.0",
     "@vuepress-reco/vuepress-plugin-kan-ban-niang": "^1.0.5",
-    "@vuepress-yard/vuepress-plugin-window": "^1.0.10",
+    
     "vuepress-plugin-boxx": "^0.0.7",
     "vuepress-plugin-comment": "^0.7.3",
     "vuepress-plugin-cursor-effects": "^1.0.2",
