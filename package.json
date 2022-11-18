@@ -8,6 +8,7 @@
   },
   "devDependencies": {
     "@vuepress/plugin-medium-zoom": "^1.9.5",
+    "gh-pages": "^4.0.0",
     "vuepress": "1.8.2",
     "vuepress-theme-reco": "1.6.10"
   },
